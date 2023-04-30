@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCÍCIO HTML JS</title>
+    <link rel="stylesheet" href="./main.css"/>
+</head>
+    <body>
+        <div class="container">
+            <h1>EXERCÍCIO HTML JS</h1>
+            <h2>Validação no JavaScript</h2>
+            <form id="form-deposito">
+                <label for="A"><b>Valor do número A</b></label>
+                <input type="number" id="numero-a" required placeholder="Digite o valor A" />
+                <label for="B"><b>Valor do número B</b></label>
+                <input type="number" id="numero-b" required placeholder="Digite o valor B" />
+                <p class="error-message">
+                    O valor B precisa ser maior que A
+                </p>
+                <button type="submit">Validar</button>
+            </form>
+            <p class="success-message"></p>
+        </div> 
+        <script src="./main.js"></script>
+    </body>
+</html>
